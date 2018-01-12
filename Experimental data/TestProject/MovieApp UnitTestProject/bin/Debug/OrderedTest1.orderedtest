@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="c:\users\andré\onedrive\documentos\mestrado\dissertação\experimento\recursos\projetos de teste\movieapp unittestproject\orderedtest1.orderedtest" id="fe6a5ecc-a597-4f4f-aa05-17ac0a7e3298" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="68fba0d1-f0d6-8eb6-0b09-ec04dcf0f896" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="78181285-077f-a3f6-3bd5-7215a3eec594" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="14ebc0e2-bebc-322c-d943-64f9fe567f68" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="02283666-1cc9-e13b-0fd8-0b22259c6c0a" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="6a0d917e-1fd8-d1e2-27cb-947089700184" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="614944de-9c8b-67fa-1086-5f2cdad7e858" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="45f1dd79-fce8-fda7-7f86-bcd0a02d25b9" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="c1530dae-6e34-e77a-8b67-3a06ac4ab2c0" name="TestMethodMain" storage="bin\debug\unittestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
