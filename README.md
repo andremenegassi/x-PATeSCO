@@ -1,4 +1,4 @@
-# x-patesco - Cross-Platform App Test Script Recorder
+# X-PATeSCO - Cross-Platform App Test Script Recorder
 
 x-PATeSCO proposes mechanisms to produce automated tests for cross-platform mobile apps. 
 
