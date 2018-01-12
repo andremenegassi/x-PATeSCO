@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    background-color: #fff;
+    color: #757575;
+}
+
+.mdl-layout-title {
+    background-color: rgb(96, 125, 139);
+    color: #fff;
+}
+
+.page-content {
+    padding: 4px;
+    min-height: 300px;
+}
+
+.mdl-textfield {
+    width: 100%;
+}
+
+.divBotoes {
+    text-align: right;
+    padding: 0px;
+}
+
+.divBotoes button {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.mdl-layout__drawer-button {
+    line-height: 54px !important;
+}
+
+.mdl-list__item {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+}
+
+.mdl-list__item-avatar {
+    border: 2px solid rgb(96, 125, 139);
+}

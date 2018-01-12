@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>agenda</title>
+
+    <link href="./fonts/roboto/RobotoRegular.css" rel="stylesheet" />
+    <link href="./fonts/material-icons/material-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/fix.css" />
+    <link rel="stylesheet" href="css/material.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script>
+        (function() {
+            window.onerror = function(e) {
+                alert(arguments[0] + "|" + arguments[1] + "|" + arguments[2]);
+            };
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--drawer mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title" id="pagina-titulo"></span>
+                <div class="mdl-layout-spacer"></div>
+
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Agenda</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="javascript:;" data-pagina="#pgHome">Home</a>
+                <a class="mdl-navigation__link" href="javascript:;" data-pagina="#pgCadastro" data-pagina-titulo="Novo Registro">Novo Registro</a>
+                <a class="mdl-navigation__link" href="javascript:;" data-pagina="#pgPesquisa">Pesquisa</a>
+                <a class="mdl-navigation__link" href="javascript:;" data-pagina="#pgSobre">Sobre</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content" id="conteudo-pagina">
+                <!--==================================================================-->
+                <div id="pgHome" style="display:none">
+                    <div>
+                        <p>Esta agenda registra dados de pessoas.</p>
+                    </div>
+                </div>
+                <!--===================================================================-->
+                <!--==================================================================-->
+                <div id="pgCadastro" data-pagina-titulo="Cadastro" style="display:none">
+                    <div>
+                        <form action="#">
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--4-col">
+                                    <div class="clearfix">
+                                        <div style="float:left;width:50%;text-align:center">
+                                            <img id="imgCadastro" src="img/no-photo.png" style="max-height:130px;width:100%;vertical-align: top;max-width:120px" />
+                                        </div>
+                                        <div style="float:left;text-align:left;width:50%">
+                                            <button
+                                                id="btnTirarFoto"
+                                                style="margin-bottom:15px;width:100%;margin-top:20px" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                                <i class="material-icons">camera_alt</i> &nbsp;&nbsp;Tirar
+                                            </button>
+
+                                            <button
+                                                id="btnSelecionarFoto"
+                                                style="width:100%;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                                <i class="material-icons">photo_library</i> &nbsp;&nbsp;Selecionar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--4-col">
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input   class="mdl-textfield__input" type="text" id="txtNome">
+                                        <label class="mdl-textfield__label" for="txtNome">Nome</label>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--4-col">
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input   class="mdl-textfield__input" type="email" id="txtEmail">
+                                        <label class="mdl-textfield__label" for="txtEmail">Email</label>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--4-col">
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input    class="mdl-textfield__input" type="text" id="txtTelefone">
+                                        <label class="mdl-textfield__label" for="txtTelefone">Telefone</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="divBotoes">
+                                <input type="hidden" value="" id="hfId" />
+                                <button id="btnExcluir" disabled class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                    <i class="material-icons">delete</i> &nbsp;&nbsp;Excluir
+                                </button>
+
+                                <button  id="btnCancelar" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                    <i class="material-icons">cancel</i> &nbsp;&nbsp;Cancelar
+                                </button>
+
+                                <button  id="btnGravar" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                    <i class="material-icons">save</i> &nbsp;&nbsp;Gravar
+                                </button>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!--===================================================================-->
+                <!--==================================================================-->
+                <div id="pgPesquisa" data-pagina-titulo="Pesquisa" style="display:none">
+                    <div>
+
+                        <div style="width:87%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="txtPesquisa" >
+                            <label class="mdl-textfield__label"  for="txtPesquisa">Pesquisa</label>
+                        </div>
+                        <label class="mdl-button mdl-js-button mdl-button--icon"  id="btnPesquisar" >
+                                       <i class="material-icons">search</i>
+                        </label>
+
+                        <div id="listResultados" class="mdl-list" style="width:100%">
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--===================================================================-->
+                <!--==================================================================-->
+                <div id="pgSobre" data-pagina-titulo="Sobre" style="display:none">
+                    <div>
+                        sobre...
+                    </div>
+                </div>
+                <!--===================================================================-->
+            </div>
+        </main>
+    </div>
+
+    <script src="js/libs/polyfill.js"></script>
+    <script src="js/libs/require.js"></script>
+    <script src="js/libs/material.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

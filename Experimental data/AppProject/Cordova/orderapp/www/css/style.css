@@ -1,0 +1,19 @@
+/* Empty. Add your own CSS if you like */
+
+.bar {
+	background: #F77F00;
+	color: white;
+}
+.bar .header-item {
+	color: white;
+}
+
+.detalhe-foto {
+	max-width: 100%;
+}
+
+.detalhe-descricao {
+	padding: 1em;
+	font-size: 120%;
+	line-height: 1.5;
+}
