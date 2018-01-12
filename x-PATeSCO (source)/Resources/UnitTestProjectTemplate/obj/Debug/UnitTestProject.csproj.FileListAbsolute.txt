@@ -1,0 +1,5 @@
+C:\Users\André\OneDrive\Documentos\Mestrado\PDM\CrossPlatformCompatibility\Resources\UnitTestProjectTemplate\bin\Debug\UnitTestProject.dll
+C:\Users\André\OneDrive\Documentos\Mestrado\PDM\CrossPlatformCompatibility\Resources\UnitTestProjectTemplate\bin\Debug\UnitTestProject.pdb
+C:\Users\André\OneDrive\Documentos\Mestrado\PDM\CrossPlatformCompatibility\Resources\UnitTestProjectTemplate\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\André\OneDrive\Documentos\Mestrado\PDM\CrossPlatformCompatibility\Resources\UnitTestProjectTemplate\obj\Debug\UnitTestProject.dll
+C:\Users\André\OneDrive\Documentos\Mestrado\PDM\CrossPlatformCompatibility\Resources\UnitTestProjectTemplate\obj\Debug\UnitTestProject.pdb
