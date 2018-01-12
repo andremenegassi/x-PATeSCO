@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Check Compatibility</title>
+
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .device {
+            width: 100%;
+        }
+
+            .device .title,
+            .comparison .title {
+                font-size: 15px;
+          
+                padding: 10px 0 10px 0;
+            }
+
+        .comparison {
+            margin-top: 10px;
+        }
+
+            .device .event,
+            .comparison .event {
+                float: left;
+                background-image: url('../Resources/esg_event.png');
+                background-repeat: no-repeat;
+                width: 101px;
+                height: 125px;
+                position: relative;
+                font-size: 15px;
+            }
+
+        .comparison .event {
+            background: none;
+            font-size: 11px;
+            height: auto;
+        }
+
+        .comparison .eventComparison {
+            padding-left: 5px;
+            border-left: 1px solid gray;
+        }
+
+
+        .device .event .eventId {
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 40px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .device .connector,
+        .comparison .connector {
+            float: left;
+            background-image: url('../Resources/esg_connector.png');
+            background-repeat: no-repeat;
+            background-position-y: 40px;
+            width: 25px;
+            height: 125px;
+        }
+
+        .comparison .connector {
+            background: none;
+            height: 90px;
+        }
+
+        .comparison .titleCriteria {
+            font-size: 11px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .legend {
+            font-size: 12px;
+            font-weight: normal;
+        }
+ 
+        .clear {
+            clear: both;
+        }
+    </style>
+
+    <div class="device">
+        <div class="title"><b>Device Cn</b> - @deviceName2 vs <b>Device Cref</b> - @deviceName1</div>
+        <div class="event">
+            <img src="../Resources/esg_start.png" />
+        </div>
+        @devicesModel
+        <div class="connector"></div>
+        <div class="event">
+            <img src="../Resources/esg_end.png" />
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+    <div class="comparison">
+       <div class="event">
+           &nbsp;
+        </div>
+        @comparison2vs1
+        <div class="connector"></div>
+        <div class="event">
+            &nbsp;
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="legend">
+        <br />
+        <br />
+
+        <div>
+            <b>COMPATIBILITY CRITERIA</b>
+        </div>
+        *ENP: The Element is Negatively Positioning
+        <br />
+        *TSHC: Text Similarity (Hybrid WebView Container)
+        <br>
+        *TST: Text Similarity Total
+        <br>
+        *SS: Screenshot Similarity
+        <br>
+        *SOCRS: Screenshot OCR Similarity
+        <br>
+        *Runtime: Runtime Difference
+        <br />
+        <br />
+        <div>
+            <b>EQUIVALENCE CRITERIA</b>
+        </div>
+        *CAV: Compare Attributes Values
+        <br>
+    </div>
+
+
+</body>
+</html>

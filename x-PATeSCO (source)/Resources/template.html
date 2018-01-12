@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Check Compatibility</title>
+
+
+</head>
+
+<body>
+
+    <style>
+
+        body {
+            font-family:Arial;
+        }
+
+        #esg{
+           border-collapse: collapse;
+        } 
+
+        #esg tr td:first-child {
+            width: 143px;
+        }
+            #esg tr td {
+            }
+                #esg #trDevice1 td.tdEvent, 
+                #esg #trDevice2 td.tdEvent {
+                    width: 138px;
+                    padding: 0;
+                    position: relative;
+                    background-image: url('../resources/esg_event.png');
+                    background-repeat: no-repeat;
+                }
+
+            #esg tr td.tdEventName {
+
+                font-size: 13px;
+                text-align:center;
+
+            }
+
+            #esg #trCompare td.trEventNCompare {
+                border-left: 1px solid gray;
+                padding: 5px;
+                font-size: 12px;
+                word-break: break-all;
+}
+            }
+
+        #esg tr td:last-child {
+            width: 104px;
+        }
+            #esg tr td span.event {
+                width: 100px;
+                text-align:center;
+                font-size: 20px;
+                display:block;
+                position:absolute;
+                top: 30px;
+                left: 0;
+                right: 0;
+            }
+
+
+        #esg tr td.deviceName {
+        
+            font-weight:bold;
+            padding: 10px 10px 10px 0;
+        
+        }
+
+          #esg tr td.deviceName:nth-child(2) {
+        
+            padding: 30px 10px 10px 0;
+            background-color:rebeccapurple;
+        
+        }
+        
+    </style>
+
+    <table id="esg">
+        <tbody>
+            <tr>
+                <td class="deviceName" colspan="@colspanDevice">@nameDevice1</td>
+            </tr>
+            <tr id="trDevice1">
+                <td>
+                    <img src="../resources/esg_start.png" />
+                </td>
+                @tdEventNDevice1
+                <!--<td class="tdEvent">
+                    <span class="event">en</span>
+                </td>-->
+                <td>
+                    <img src="../resources/esg_end.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                @tdEventNameNDevice1
+                <td>
+                    &nbsp;
+                </td>     
+            </tr>    
+            <tr>
+                <td class="deviceName" colspan="@colspanDevice">@nameDevice2</td>
+            </tr>
+
+            <tr id="trDevice2">
+                <td>
+                    <img src="../resources/esg_start.png" />
+                </td>
+                @tdEventNDevice2
+                <!--<td class="tdEvent">
+                    <span class="event">en</span>
+                </td>-->
+                <td>
+                    <img src="../resources/esg_end.png" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                @tdEventNameNDevice2
+                <td>
+                    &nbsp;
+                </td>
+            </tr>  
+
+            <tr id="trCompare">
+                <td></td>
+                @tdEventNCompare
+                <!--<td class="trEventNCompare">
+                </td>-->
+                <td></td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <div>
+        <b>*TSHC: Text Similarity Hybrid Container:</b>
+        <br>
+        <b>*TST: Text Similarity Total</b>
+        <br>
+        <b>*SS: Screenshot Similarity</b>
+        <br>
+        <b>*SOCRS: Screenshot OCR Similarity</b>
+        <br>
+    </div>
+
+
+
+
+</body>
+</html>
