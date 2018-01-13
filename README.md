@@ -19,6 +19,9 @@ Each folder is described as follows.
 We believe all files needed to replicate the experiments are herein available. 
 
 Best regards,
+
 André Augusto Menegassi - andremenegassi@hotmail.com 
+
 Andre Takeshi Endo - andreendo@gmail.com
+
 UTFPR - Campus Cornelio Procopio - Brazil
