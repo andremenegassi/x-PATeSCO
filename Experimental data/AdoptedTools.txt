@@ -1,0 +1,11 @@
+The adopted software tools used in the experiments are the following:
+
+- XCode 7.3 (for iOS 7)
+- XCode 8.2 (for iOS 9.3 and 10.2)
+- Android SDK r24.4.1
+- VisualStudio 2017
+- Appium 1.4.3 (Windows OS) and 1.5/1.6.3 (MAC OS)
+- Selenium WebDriver for C\# 2.53.0
+- Appium WebDriver 1.5.0.1
+- Windows 10 OS
+- MAC OS X Sierra
