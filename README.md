@@ -2,6 +2,19 @@
 
 x-PATeSCO is a software tool that proposes mechanisms to produce automated tests for cross-platform mobile apps. 
 
+If you use this tool, we gently ask you to cite our publication:
+```
+@article{iet-sen/MenegassiE20,
+  author    = {Andre Augusto Menegassi and Andr{\'{e}} Takeshi Endo},
+  title     = {Automated tests for cross-platform mobile apps in multiple configurations},
+  journal   = {{IET} Softw.},
+  volume    = {14},
+  number    = {1},
+  pages     = {27--38},
+  year      = {2020}
+}
+```
+
 <h1>Folders</h1>
 
 Each folder is described as follows. 
